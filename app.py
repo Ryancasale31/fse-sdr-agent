@@ -494,10 +494,24 @@ with tab4:
     unreviewed = [c for c in radar_finds if not c.get("reviewed")]
     reviewed = [c for c in radar_finds if c.get("reviewed")]
 
-    # Manual run button
-    col_r1, col_r2 = st.columns([2,1])
+    # Manual run button + bulk add
+    col_r1, col_r2, col_r3 = st.columns([2,1,1])
     col_r1.info(f"**{len(unreviewed)} new companies** waiting for review · {len(reviewed)} previously reviewed")
-    if col_r2.button("🔍 Run Radar Now", type="primary"):
+
+    if col_r3.button("✅ Add All to Pipeline", type="primary", disabled=len(unreviewed)==0):
+        added = 0
+        for company in unreviewed:
+            company["reviewed"] = True
+            company["status"] = "researched"
+            pipeline = upsert_company(pipeline, company)
+            added += 1
+        save_pipeline(pipeline)
+        with open(RADAR_FILE, "w") as f:
+            json.dump(radar_finds, f, indent=2)
+        st.success(f"✅ Added all {added} companies to pipeline!")
+        st.rerun()
+
+    if col_r2.button("🔍 Run Radar Now", disabled=len(unreviewed)>0):
         with st.spinner("Searching for new sponsor targets... (this takes ~2 minutes)"):
             try:
                 import radar as radar_module
