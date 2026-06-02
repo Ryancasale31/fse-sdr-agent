@@ -1,0 +1,65 @@
+# Tier A — FSM Software
+ServiceMax | Field service management software purpose-built for asset-intensive industries including medical devices and industrial equipment
+IFS Field Service Management | Enterprise software for field service management, ERP, and asset lifecycle management
+ClickSoftware | AI-powered field service scheduling and workforce optimization
+Astea Alliance | Field service management and workforce scheduling software
+ServiceTitan | Field service software for commercial and residential service businesses
+Zuper | Intelligent field service management platform
+Praxedo | Cloud-based field service management software
+Zinier | AI-powered field service automation platform for scheduling, dispatch, and workflow
+Workwave | Field service management software for service businesses
+ServicePower | Workforce management and field service optimization platform
+Plannix | AI scheduling and dispatch for field service operations
+
+# Tier A — Parts, Inventory & Supply Chain
+Syncron | Service parts planning and inventory optimization for manufacturers running global field service operations
+Servigistics | Service parts management and optimization software for manufacturers
+Cribmaster | Industrial vending and supply chain management for field service operations
+
+# Tier A — AI and Analytics for Service
+Aquant | AI platform that analyzes service data to recommend next best actions for technicians and predict equipment failures
+Resolve Systems | Intelligent automation for IT and field service operations
+Brightfield | Workforce analytics for extended field workforces and contingent labor
+Outcome.com | Customer success and service outcome management platform
+
+# Tier A — Remote Assistance and AR
+TeamViewer Frontline | Augmented reality and remote assistance platform for field technicians
+Scope AR | Enterprise augmented reality for field service and remote support
+Librestream Onsight | Remote visual assistance and AR for field service workers
+RealWear | Wearable computing devices for hands-free field service operations
+Help Lightning | Augmented reality remote assistance for field service and customer support
+XMReality | Remote guidance and AR support for field technicians
+
+# Tier B — Workforce Management and Scheduling
+UKG | Workforce management, scheduling, and HR solutions for field operations
+Shiftboard | Scheduling and workforce management for field service organizations
+Quinyx | AI-powered workforce management for distributed field service teams
+
+# Tier B — Training and Knowledge Management
+Vector Solutions | Training and compliance management for field service industries
+Inkling | Mobile knowledge management platform for field technicians
+Scribe | Process documentation and standard operating procedures for field service
+Dozuki | Work instruction software for manufacturing and field service operations
+TechnicianU | Online training and certification platform for field service technicians
+
+# Tier B — IoT and Predictive Maintenance
+Augury | Machine health monitoring and predictive maintenance AI for industrial equipment
+Uptake | Industrial AI for predictive maintenance and asset performance management
+SparkCognition | AI for predictive maintenance in industrial field operations
+C3.ai | Enterprise AI platform for predictive maintenance and service operations
+Aspentech | Asset optimization and predictive maintenance software
+
+# Tier B — ERP with Service Modules
+Microsoft Dynamics 365 Field Service | ERP and field service management for enterprise organizations
+SAP Field Service Management | Enterprise field service management integrated with SAP ERP
+Infor | Industry-specific ERP with field service and asset management modules
+
+# Tier B — Customer Experience and Service CRM
+Zendesk | Customer service and field operations management platform
+Medallia | Customer experience management for field service organizations
+Freshworks | Customer engagement and field service software platform
+
+# Tier C — Hardware and Devices
+Zebra Technologies | Mobile computing and printing solutions for field service operations
+Panasonic Toughbook | Rugged mobile computing devices for field technicians
+Getac | Rugged computers and tablets for demanding field service applications
